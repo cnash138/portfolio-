@@ -1,1 +1,34 @@
-css
+@font-face {
+    font-family: roboto italic;
+    src: url(roboto-italic-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: roboto light italic;
+    src: url(roboto-lightitalic-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+html {
+   	border: 20px solid #E9D983;
+}
+
+a:active {
+    color: #96ADC8;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body { 
+	background-color: #222E50;
+   	color:	#96adc8;
+   	padding: 20px;
+   	font-family: 'roboto light italic', sans-serif;
+   }
+  div {
+
+        padding: 10px;
+
+       }
