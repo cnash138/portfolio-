@@ -1,12 +1,12 @@
 @font-face {
-    font-family: roboto italic;
-    src: url(roboto-italic-webfont.woff2) format('woff2');
+    font-family: 'roboto italic';
+    src: url(fonts/roboto-italic-webfont.woff2) format('woff2');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
-    font-family: roboto light italic;
-    src: url(roboto-lightitalic-webfont.woff2) format('woff2');
+    font-family: 'roboto light italic';
+    src: url(fonts/roboto-lightitalic-webfont.woff2) format('woff2');
     font-weight: normal;
     font-style: italic;
 }
@@ -20,15 +20,39 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-
+.button {
+  background-color: #E9D983;
+  padding: 10px 25px;
+  display: inline-block;
+  margin: 10px 0;
+}
+.button:hover {
+  color: #E9D983;
+  background-color: #96ADC8;
+  text-decoration: none;
+}
+.profile-pic {
+  width:200px;
+  height:200px;
+  border:0;
+  display: block;
+  margin: 0 auto 20px auto;
+}
 body { 
 	background-color: #222E50;
    	color:	#96adc8;
    	padding: 20px;
    	font-family: 'roboto light italic', sans-serif;
-   }
-  div {
+}
 
-        padding: 10px;
+div {
+    padding: 10px;
+}
+  @media only screen and (max-width: 600px) {
 
-       }
+  }
+
+   @media only screen and (max-width: 768px) {
+
+  }
+
